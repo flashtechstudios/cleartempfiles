@@ -4,6 +4,8 @@ cd C:\Windows\Temp
 remove-item *
 cd ~\AppData\Local\Temp
 remove-item *
+cd "C:\Windows\Prefetch"
+remove-item *
 cd ~
 Install-Module DiskCleanup -Verbose
 Remove-WindowsUpgradeFiles -Verbose -Confirm:$false
